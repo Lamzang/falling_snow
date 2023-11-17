@@ -52,11 +52,7 @@ function Animation() {
   context.font = "50px Nanum Pen Script";
   context.textAlign = "center";
   context.fillText("첫눈오는 추운 겨울", width / 2, 100);
-  context.fillText("기침도 계속 나오고", width / 2, 200);
-  context.fillText("신촌까지 오느라", width / 2, 300);
-  context.fillText("많이 피곤하고 힘들텐데", width / 2, 400);
-  context.fillText("고생이 많아요", width / 2, 500);
-  context.fillText("화이팅이에요", width / 2, 600);
+  context.fillText("화이팅이에요", width / 2, 200);
 
   animationID = requestAnimationFrame(Animation);
 }
