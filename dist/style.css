@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Lobster&family=Nanum+Pen+Script&display=swap");
+
 html,
 body {
   margin: 0;
@@ -6,4 +8,5 @@ body {
   height: 100vh;
   overflow: hidden;
   background-color: #111;
+  font-family: "Black Han Sans", "Nanum Pen Script", sans-serif;
 }

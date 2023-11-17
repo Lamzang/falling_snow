@@ -49,9 +49,9 @@ function Animation() {
     smallSnow(arrayX[i], arrayY[i], 5, 1 - (arrayY[i] / height) * 0.8);
   }
   context.beginPath();
-  context.font = "30px serif";
+  context.font = "50px Nanum Pen Script";
   context.fillText("첫눈오는 추운 겨울", 50, 100);
-  context.fillText("    화이팅이에요", 50, 200);
+  context.fillText("  화이팅이에요", 50, 200);
 
   animationID = requestAnimationFrame(Animation);
 }
